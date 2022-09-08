@@ -1,0 +1,268 @@
+.parent-div {
+    background-color: rgb(29, 26, 26);
+    /* padding-top: 5%; */
+    padding-bottom: 7%;
+}
+
+.parent-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: #EBA243;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+/* box 1 */
+.box-one {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #EBA243;
+    cursor: pointer;
+}
+
+.box-one:hover {
+    position: relative;
+    height: 200px;
+}
+
+.img-one {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-70px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.txt-1 {
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box-one:hover .txt-1 {
+    opacity: 1;
+    transform: translateY(-100px);
+}
+
+/* box 2 */
+
+.box-two {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #EBA243;
+    cursor: pointer;
+}
+
+.box-two:hover {
+    position: relative;
+    height: 200px;
+}
+
+.img-two {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-70px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.txt-2 {
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box-two:hover .txt-2 {
+    opacity: 1;
+    transform: translateY(-100px);
+}
+
+/* box 2 */
+
+/* box 3 */
+
+.box-three {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #EBA243;
+    cursor: pointer;
+}
+
+.box-three:hover {
+    position: relative;
+    height: 200px;
+}
+
+.img-three {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-70px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.txt-3 {
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box-three:hover .txt-3 {
+    opacity: 1;
+    transform: translateY(-100px);
+}
+
+/* box 3 */
+
+/* box 4 */
+.box-four {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #EBA243;
+    cursor: pointer;
+}
+
+.box-four:hover {
+    position: relative;
+    height: 200px;
+}
+
+.img-four {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-70px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.txt-4 {
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box-four:hover .txt-4 {
+    opacity: 1;
+    transform: translateY(-100px);
+}
+/* box 4 */
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.custom-shape-divider-top-1659686972 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1659686972 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 143px;
+}
+
+.custom-shape-divider-top-1659686972 .shape-fill {
+    fill: rgb(245, 243, 243);
+}
+
+/* media queries */
+@media (min-width: 0px) and (max-width: 600px) {
+    .box-one {
+        margin-top: 10px;
+    }
+
+    .box-two {
+        margin-top: 50px;
+    }
+
+    .box-three {
+        margin-top: 50px;
+    }
+
+    .box-four {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 890px) {
+    .box-one {
+        margin-top: 10px;
+    }
+
+    .box-two {
+        margin-top: 10px;
+    }
+
+    .box-three {
+        margin-top: 50px;
+    }
+
+    .box-four {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 890px) and (max-width: 1200px) {
+    .box-one {
+        margin-top: 10px;
+    }
+
+    .box-two {
+        margin-top: 10px;
+    }
+
+    .box-three {
+        margin-top: 10px;
+    }
+
+    .box-four {
+        margin-top: 50px;
+    }
+}

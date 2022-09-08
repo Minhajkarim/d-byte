@@ -1,0 +1,74 @@
+.line {
+    text-align: center;
+    width: 50vw;
+    height: 10px;
+    color: #EBA243 !important;
+    margin: 0 auto;
+}
+
+.f-main {
+    background-color: rgb(29, 26, 26);
+    /* padding-top: 5%; */
+    padding-bottom: 1%;
+}
+
+.line-txt {
+    text-transform: none !important;
+    color: #EBA243;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.logo-f {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-ff {
+    width: 200px;
+}
+
+.f-text {
+    text-align: center;
+    color: #EBA243 !important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    margin-right: 20px;
+    border: 2px solid #EBA243;
+    border-radius: 10px;
+}
+
+.custom-shape-divider-top-1659948851 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1659948851 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1659948851 .shape-fill {
+    fill: rgb(245, 243, 243);
+}

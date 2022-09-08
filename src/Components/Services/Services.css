@@ -1,0 +1,94 @@
+.p-sec{
+    background-color: rgb(29, 26, 26);
+    padding-bottom: 5%;
+}
+
+.imgg-1{
+    position: relative;
+}
+
+.imgg-2{
+    position: relative;
+}
+
+.imgg-3{
+    position: relative;
+}
+
+.imgg-4{
+    position: relative;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.box-1 {
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box-2 {
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box-3 {
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box-4 {
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dept {
+    color: #EBA243;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dept:hover {
+    color: #EBA243;
+    text-align: center;
+    cursor: pointer;
+}
+
+.p-hd {
+    color: #EBA243;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.custom-shape-divider-top-1659685390 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1659685390 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1659685390 .shape-fill {
+    fill: rgb(245, 243, 243);
+}

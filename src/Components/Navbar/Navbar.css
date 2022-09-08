@@ -1,0 +1,189 @@
+.nav-big {
+    background-color: rgb(29, 26, 26);
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 10;
+    border-bottom: 3px solid #EBA243;
+  }
+  
+  .nav-big .logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    /* color: white; */
+  }
+  .nav-big .logo .logo-icon {
+    width: 70px;
+  }
+  .nav-big .logo .logo-text {
+    margin-left: 10px;
+    color: #EBA243 !important;
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+  }
+  .nav-big .logo .logo-text .small {
+    font-size: small;
+  }
+  .nav-big .logo .logo-text .big {
+    font-size: large;
+  }
+  .nav-big .navigation {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  }
+  .nav-big .navigation a,
+  span {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-size: 1.2vw;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+  }
+  .nav-big .navigation a:hover,
+  .dropdown span:hover {
+    color: #EBA243;
+    cursor: pointer;
+  }
+  .nav-big .navigation .dropdown {
+    color: white;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-big .navigation .dropdown .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(29, 26, 26);
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    top: -150px;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 5px;
+  }
+  .nav-big .navigation .dropdown .content a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+  .nav-big .navigation .dropdown:hover .content {
+    opacity: 1;
+    transform: translate(0, 150px);
+  }
+  
+  .nav-small {
+    background-color: rgb(29, 26, 26);
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 2px solid white;
+  }
+  .nav-small .logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-small .logo .logo-icon {
+    width: 60px;
+  }
+  .nav-small .logo .logo-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-small .logo .logo-text .small {
+    font-size: small;
+  }
+  .nav-small .logo .logo-text .big {
+    font-size: large;
+  }
+  .nav-small .menu-container {
+    position: absolute;
+    left: 10px;
+  }
+  .nav-small .menu-container .navigation {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 49px;
+    left: calc(-100vw - 10px);
+    height: calc(100vh - 100px);
+    padding-top: 50px;
+    background-color: rgb(29, 26, 26);
+    width: 100vw;
+    min-width: 200px;
+    align-items: center;
+    transition: 0.6s ease;
+  }
+  .nav-small .menu-container .navigation a {
+    font-size: x-large;
+    color: #EBA243;
+    text-decoration: none;
+    transition: 0.2s ease;
+    margin-top: 20px;
+  }
+  .nav-small .menu-container .navigation a:hover {
+    color: gold;
+  }
+  .nav-small .menu-container .navigation .dropdown {
+    margin: 20px 0 20px 0;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-small .menu-container .navigation .dropdown a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+  }
+  .nav-small .change .navigation {
+    transform: translate(100vw);
+  }
+  
+  @media (min-width: 1000px) and (max-width: 50000px) {
+    .nav-big {
+      display: flex;
+    }
+    .nav-small {
+      display: none;
+    }
+  }
+  @media (min-width: 0px) and (max-width: 1000px) {
+    .nav-big {
+      display: none;
+    }
+    .nav-small {
+      display: flex;
+    }
+  }
+  

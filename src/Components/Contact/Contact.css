@@ -1,0 +1,79 @@
+.map-img {
+  width: 500px;
+  border: 2px solid rgb(88, 85, 85);
+  cursor: pointer;
+}
+
+.cont-p {
+  padding-bottom: 5%;
+  background-color: rgb(245, 243, 243);
+}
+
+.cont-btn {
+  color: black !important;
+  background: linear-gradient(90deg, rgb(88, 177, 122) 0%, #eba243 100%);
+  margin-top: 10px !important;
+  border: 2px solid black !important;
+}
+
+.cont-btn:hover {
+  color: black !important;
+  background: linear-gradient(90deg, rgb(88, 177, 122) 0%, #eba243 100%);
+  margin-top: 10px !important;
+  letter-spacing: 4px;
+}
+
+.main-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+
+.cont-h {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.form {
+  margin-top: 2%;
+}
+
+.map {
+  margin-top: 2%;
+}
+
+.map-link {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-shape-divider-top-1659952442 {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1659952442 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 130px;
+}
+
+.custom-shape-divider-top-1659952442 .shape-fill {
+  fill: rgb(29, 26, 26);
+}
+
+@media (min-width: 0px) and (max-width: 520px) {
+  .map-img {
+    width: 90vw;
+    border: 2px solid rgb(88, 85, 85);
+    cursor: pointer;
+  }
+}
